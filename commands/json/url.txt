@@ -1,0 +1,17 @@
+urusan_bidang
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/urusan/2021/tampil-urusan/156/0
+
+skpd
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/belanja/2021/giat/tampil-unit/156/0
+
+sub_kegiatan
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/subgiat/2021/tampil-sub-giat/156/0
+
+akun_belanja
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/akun/2021/tampil-akun/156/0
+
+belanja
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/rekap/2021/tampil-belanja/156/0?model=sub_bl_prog_sub_giat_rek
+
+csv_to_json
+https://www.convertcsv.com/csv-to-json.htm

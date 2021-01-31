@@ -1,0 +1,546 @@
+[
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 1,
+   "sub_fungsi": "Pendidikan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 1,
+   "kode_bidang": 2,
+   "sub_fungsi": "Kesehatan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 3,
+   "kode_urusan": 1,
+   "kode_bidang": 3,
+   "sub_fungsi": "Pekerjaan Umum dan Penataan Ruang",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 4,
+   "kode_urusan": 1,
+   "kode_bidang": 4,
+   "sub_fungsi": "Perumahan Rakyat dan Kawasan Permukiman",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 5,
+   "kode_urusan": 1,
+   "kode_bidang": 5,
+   "sub_fungsi": "Ketenteraman dan Ketertiban Umum serta Perlindungan Masyarakat",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 6,
+   "kode_urusan": 1,
+   "kode_bidang": 6,
+   "sub_fungsi": "Sosial",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 7,
+   "kode_urusan": 2,
+   "kode_bidang": 7,
+   "sub_fungsi": "Tenaga Kerja",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 8,
+   "kode_urusan": 2,
+   "kode_bidang": 8,
+   "sub_fungsi": "Pemberdayaan Perempuan dan Perlindungan Anak",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 9,
+   "kode_urusan": 2,
+   "kode_bidang": 9,
+   "sub_fungsi": "Pangan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 10,
+   "kode_urusan": 2,
+   "kode_bidang": 11,
+   "sub_fungsi": "Lingkungan Hidup",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 11,
+   "kode_urusan": 2,
+   "kode_bidang": 12,
+   "sub_fungsi": "Kependudukan dan Pencatatan Sipil",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 12,
+   "kode_urusan": 2,
+   "kode_bidang": 13,
+   "sub_fungsi": "Pemberdayaan Masyarakat dan Desa",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 13,
+   "kode_urusan": 2,
+   "kode_bidang": 14,
+   "sub_fungsi": "Pengendalian Penduduk dan Keluarga Berencana",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 14,
+   "kode_urusan": 2,
+   "kode_bidang": 15,
+   "sub_fungsi": "Perhubungan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 15,
+   "kode_urusan": 2,
+   "kode_bidang": 16,
+   "sub_fungsi": "Komunikasi dan Informatika",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 16,
+   "kode_urusan": 2,
+   "kode_bidang": 17,
+   "sub_fungsi": "Koperasi, Usaha Kecil dan Menengah",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 17,
+   "kode_urusan": 2,
+   "kode_bidang": 18,
+   "sub_fungsi": "Penanaman Modal",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 18,
+   "kode_urusan": 2,
+   "kode_bidang": 19,
+   "sub_fungsi": "Kepemudaan dan Olahraga",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 19,
+   "kode_urusan": 2,
+   "kode_bidang": 20,
+   "sub_fungsi": "Statistik",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 20,
+   "kode_urusan": 2,
+   "kode_bidang": 22,
+   "sub_fungsi": "Kebudayaan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 21,
+   "kode_urusan": 2,
+   "kode_bidang": 23,
+   "sub_fungsi": "Perpustakaan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 22,
+   "kode_urusan": 2,
+   "kode_bidang": 24,
+   "sub_fungsi": "Kearsipan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 23,
+   "kode_urusan": 3,
+   "kode_bidang": 25,
+   "sub_fungsi": "Kelautan dan Perikanan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 24,
+   "kode_urusan": 3,
+   "kode_bidang": 26,
+   "sub_fungsi": "Pariwisata",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 25,
+   "kode_urusan": 3,
+   "kode_bidang": 27,
+   "sub_fungsi": "Pertanian",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 26,
+   "kode_urusan": 3,
+   "kode_bidang": 30,
+   "sub_fungsi": "Perdagangan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 27,
+   "kode_urusan": 3,
+   "kode_bidang": 31,
+   "sub_fungsi": "Perindustrian",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 28,
+   "kode_urusan": 4,
+   "kode_bidang": 1,
+   "sub_fungsi": "Sekretariat Daerah",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 29,
+   "kode_urusan": 4,
+   "kode_bidang": 2,
+   "sub_fungsi": "Sekretariat DPRD",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 30,
+   "kode_urusan": 5,
+   "kode_bidang": 1,
+   "sub_fungsi": "Perencanaan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 31,
+   "kode_urusan": 5,
+   "kode_bidang": 2,
+   "sub_fungsi": "Keuangan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 32,
+   "kode_urusan": 5,
+   "kode_bidang": 3,
+   "sub_fungsi": "Kepegawaian",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 33,
+   "kode_urusan": 5,
+   "kode_bidang": 4,
+   "sub_fungsi": "Pendidikan dan Pelatihan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 34,
+   "kode_urusan": 5,
+   "kode_bidang": 5,
+   "sub_fungsi": "Penelitian dan Pengembangan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 35,
+   "kode_urusan": 6,
+   "kode_bidang": 1,
+   "sub_fungsi": "Inspektorat",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 36,
+   "kode_urusan": 7,
+   "kode_bidang": 1,
+   "sub_fungsi": "Kecamatan",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 1,
+   "kode_sub_fungsi": 37,
+   "kode_urusan": 8,
+   "kode_bidang": 1,
+   "sub_fungsi": "Kesatuan Bangsa dan Politik",
+   "fungsi": "PELAYANAN UMUM"
+ },
+ {
+   "kode_fungsi": 3,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 5,
+   "sub_fungsi": "Ketenteraman dan Ketertiban Umum serta Perlindungan Masyarakat",
+   "fungsi": "KETERTIBAN DAN KEAMANAN"
+ },
+ {
+   "kode_fungsi": 3,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 1,
+   "kode_bidang": 6,
+   "sub_fungsi": "Sosial",
+   "fungsi": "KETERTIBAN DAN KEAMANAN"
+ },
+ {
+   "kode_fungsi": 3,
+   "kode_sub_fungsi": 3,
+   "kode_urusan": 8,
+   "kode_bidang": 1,
+   "sub_fungsi": "Kesatuan Bangsa dan Politik",
+   "fungsi": "KETERTIBAN DAN KEAMANAN"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 3,
+   "sub_fungsi": "Pekerjaan Umum dan Penataan Ruang",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 2,
+   "kode_bidang": 7,
+   "sub_fungsi": "Tenaga Kerja",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 3,
+   "kode_urusan": 2,
+   "kode_bidang": 9,
+   "sub_fungsi": "Pangan",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 4,
+   "kode_urusan": 2,
+   "kode_bidang": 15,
+   "sub_fungsi": "Perhubungan",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 5,
+   "kode_urusan": 2,
+   "kode_bidang": 16,
+   "sub_fungsi": "Komunikasi dan Informatika",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 6,
+   "kode_urusan": 2,
+   "kode_bidang": 17,
+   "sub_fungsi": "Koperasi, Usaha Kecil dan Menengah",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 7,
+   "kode_urusan": 2,
+   "kode_bidang": 18,
+   "sub_fungsi": "Penanaman Modal",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 8,
+   "kode_urusan": 2,
+   "kode_bidang": 21,
+   "sub_fungsi": "Persandian",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 9,
+   "kode_urusan": 3,
+   "kode_bidang": 25,
+   "sub_fungsi": "Kelautan dan Perikanan",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 10,
+   "kode_urusan": 3,
+   "kode_bidang": 27,
+   "sub_fungsi": "Pertanian",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 11,
+   "kode_urusan": 3,
+   "kode_bidang": 30,
+   "sub_fungsi": "Perdagangan",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 4,
+   "kode_sub_fungsi": 12,
+   "kode_urusan": 3,
+   "kode_bidang": 31,
+   "sub_fungsi": "Perindustrian",
+   "fungsi": "EKONOMI"
+ },
+ {
+   "kode_fungsi": 5,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 3,
+   "sub_fungsi": "Pekerjaan Umum dan Penataan Ruang",
+   "fungsi": "PERLINDUNGAN LINGKUNGAN HIDUP"
+ },
+ {
+   "kode_fungsi": 5,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 2,
+   "kode_bidang": 10,
+   "sub_fungsi": "Pertanahan",
+   "fungsi": "PERLINDUNGAN LINGKUNGAN HIDUP"
+ },
+ {
+   "kode_fungsi": 5,
+   "kode_sub_fungsi": 3,
+   "kode_urusan": 2,
+   "kode_bidang": 11,
+   "sub_fungsi": "Lingkungan Hidup",
+   "fungsi": "PERLINDUNGAN LINGKUNGAN HIDUP"
+ },
+ {
+   "kode_fungsi": 6,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 3,
+   "sub_fungsi": "Pekerjaan Umum dan Penataan Ruang",
+   "fungsi": "PERUMAHAN DAN FASILITAS UMUM"
+ },
+ {
+   "kode_fungsi": 6,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 1,
+   "kode_bidang": 4,
+   "sub_fungsi": "Perumahan Rakyat dan Kawasan Permukiman",
+   "fungsi": "PERUMAHAN DAN FASILITAS UMUM"
+ },
+ {
+   "kode_fungsi": 6,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 3,
+   "sub_fungsi": "Pekerjaan Umum dan Penataan Ruang",
+   "fungsi": "PERUMAHAN DAN FASILITAS UMUM"
+ },
+ {
+   "kode_fungsi": 6,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 1,
+   "kode_bidang": 4,
+   "sub_fungsi": "Perumahan Rakyat dan Kawasan Permukiman",
+   "fungsi": "PERUMAHAN DAN FASILITAS UMUM"
+ },
+ {
+   "kode_fungsi": 7,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 2,
+   "sub_fungsi": "Kesehatan",
+   "fungsi": "KESEHATAN"
+ },
+ {
+   "kode_fungsi": 7,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 2,
+   "kode_bidang": 14,
+   "sub_fungsi": "Pengendalian Penduduk dan Keluarga Berencana",
+   "fungsi": "KESEHATAN"
+ },
+ {
+   "kode_fungsi": 8,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 3,
+   "kode_bidang": 26,
+   "sub_fungsi": "Pariwisata",
+   "fungsi": "PARIWISATA"
+ },
+ {
+   "kode_fungsi": 10,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 1,
+   "sub_fungsi": "Pendidikan",
+   "fungsi": "PENDIDIKAN"
+ },
+ {
+   "kode_fungsi": 10,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 2,
+   "kode_bidang": 19,
+   "sub_fungsi": "Kepemudaan dan Olahraga",
+   "fungsi": "PENDIDIKAN"
+ },
+ {
+   "kode_fungsi": 10,
+   "kode_sub_fungsi": 3,
+   "kode_urusan": 2,
+   "kode_bidang": 22,
+   "sub_fungsi": "Kebudayaan",
+   "fungsi": "PENDIDIKAN"
+ },
+ {
+   "kode_fungsi": 10,
+   "kode_sub_fungsi": 4,
+   "kode_urusan": 2,
+   "kode_bidang": 23,
+   "sub_fungsi": "Perpustakaan",
+   "fungsi": "PENDIDIKAN"
+ },
+ {
+   "kode_fungsi": 11,
+   "kode_sub_fungsi": 1,
+   "kode_urusan": 1,
+   "kode_bidang": 6,
+   "sub_fungsi": "Sosial",
+   "fungsi": "PERLINDUNGAN SOSIAL"
+ },
+ {
+   "kode_fungsi": 11,
+   "kode_sub_fungsi": 2,
+   "kode_urusan": 2,
+   "kode_bidang": 8,
+   "sub_fungsi": "Pemberdayaan Perempuan dan Perlindungan Anak",
+   "fungsi": "PERLINDUNGAN SOSIAL"
+ }
+]
