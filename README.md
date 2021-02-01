@@ -37,7 +37,13 @@ Proyek ini mengharuskan install versi minimal PHP : 5.6.0.
 INSTALLATION
 ------------
 
-Download code, dari menu diatas, Code -> Download ZIP.
+Install composer :
+Kalau belum install [Composer](http://getcomposer.org/), silahkan install composer terlebih dahulu, caranya bisa dapat disini -> [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+
+
+Download code :
+[https://github.com/biladina/sikd_web/archive/master.zip](https://github.com/biladina/sikd_web/archive/master.zip)
+
 
 Atau clone melalui git
 ~~~
@@ -45,7 +51,7 @@ git clone https://github.com/biladina/sikd_web.git
 ~~~
 
 
-Setelah itu jalankan perintah update composer untuk menginstall vendor:
+Setelah itu jalankan perintah update composer untuk menginstall vendor :
 ~~~
 composer update
 ~~~
@@ -56,7 +62,7 @@ CONFIGURATION
 
 ### Database
 
-Edit the file `config/db.php` with real data, for example:
+Edit file `config/db.php`, sesuaikan `dbname`, `username`, dan `password` database :
 
 ```php
 return [
