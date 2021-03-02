@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jan 31, 2021 at 10:38 PM
--- Server version: 10.3.27-MariaDB-0+deb10u1
--- PHP Version: 7.4.9
+-- Host: 127.0.0.1
+-- Generation Time: Mar 02, 2021 at 11:19 AM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.4.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -107,19 +107,49 @@ CREATE TABLE `fungsi` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `pendapatan`
+--
+
+CREATE TABLE `pendapatan` (
+  `id_pendapatan` int(11) NOT NULL,
+  `kode_akun` mediumtext DEFAULT NULL,
+  `nama_akun` mediumtext DEFAULT NULL,
+  `uraian` mediumtext DEFAULT NULL,
+  `keterangan` mediumtext DEFAULT NULL,
+  `skpd_koordinator` int(11) DEFAULT NULL,
+  `urusan_koordinator` int(11) DEFAULT NULL,
+  `program_koordinator` int(11) DEFAULT NULL,
+  `total` mediumtext DEFAULT NULL,
+  `created_user` int(11) DEFAULT NULL,
+  `createddate` mediumtext DEFAULT NULL,
+  `createdtime` mediumtext DEFAULT NULL,
+  `updated_user` int(11) DEFAULT NULL,
+  `updateddate` mediumtext DEFAULT NULL,
+  `updatedtime` mediumtext DEFAULT NULL,
+  `rekening` mediumtext DEFAULT NULL,
+  `user1` mediumtext DEFAULT NULL,
+  `user2` mediumtext DEFAULT NULL,
+  `nilaimurni` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `skpd`
 --
 
 CREATE TABLE `skpd` (
-  `id_unit` int(11) DEFAULT NULL,
-  `id_skpd` int(11) DEFAULT NULL,
+  `id_unit` int(11) NOT NULL,
+  `id_skpd` int(11) NOT NULL,
   `kode_skpd` varchar(200) DEFAULT NULL,
   `nama_skpd` varchar(200) DEFAULT NULL,
   `kunci_skpd` int(11) DEFAULT NULL,
   `id_setup_unit` int(11) DEFAULT NULL,
   `is_skpd` int(11) DEFAULT NULL,
   `posisi` varchar(200) DEFAULT NULL,
-  `status` varchar(200) DEFAULT NULL
+  `status` varchar(200) DEFAULT NULL,
+  `nilai_total` mediumtext DEFAULT NULL,
+  `nilai_murni` mediumtext DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -170,6 +200,22 @@ CREATE TABLE `urusan_bidang` (
   `created_at` varchar(200) DEFAULT NULL,
   `status` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `pendapatan`
+--
+ALTER TABLE `pendapatan`
+  ADD PRIMARY KEY (`id_pendapatan`);
+
+--
+-- Indexes for table `skpd`
+--
+ALTER TABLE `skpd`
+  ADD PRIMARY KEY (`id_unit`,`id_skpd`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
