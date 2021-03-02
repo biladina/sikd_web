@@ -7,8 +7,8 @@ use Yii;
 /**
  * This is the model class for table "skpd".
  *
- * @property int|null $id_unit
- * @property int|null $id_skpd
+ * @property int $id_unit
+ * @property int $id_skpd
  * @property string|null $kode_skpd
  * @property string|null $nama_skpd
  * @property int|null $kunci_skpd
@@ -16,6 +16,8 @@ use Yii;
  * @property int|null $is_skpd
  * @property string|null $posisi
  * @property string|null $status
+ * @property string|null $nilai_total
+ * @property string|null $nilai_murni
  */
 class Skpd extends \yii\db\ActiveRecord
 {
@@ -33,8 +35,11 @@ class Skpd extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['id_unit', 'id_skpd'], 'required'],
             [['id_unit', 'id_skpd', 'kunci_skpd', 'id_setup_unit', 'is_skpd'], 'integer'],
+            [['nilai_total', 'nilai_murni'], 'string'],
             [['kode_skpd', 'nama_skpd', 'posisi', 'status'], 'string', 'max' => 200],
+            [['id_unit', 'id_skpd'], 'unique', 'targetAttribute' => ['id_unit', 'id_skpd']],
         ];
     }
 
@@ -53,6 +58,8 @@ class Skpd extends \yii\db\ActiveRecord
             'is_skpd' => 'Is Skpd',
             'posisi' => 'Posisi',
             'status' => 'Status',
+            'nilai_total' => 'Nilai Total',
+            'nilai_murni' => 'Nilai Murni',
         ];
     }
 }

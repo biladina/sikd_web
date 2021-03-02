@@ -392,7 +392,7 @@ class BelanjaController extends Controller
             ],
         ]);
         
-        $exporter->save(Yii::getAlias('@app/commands/excel/items.xls'));
+        $exporter->save(Yii::getAlias('@app/commands/excel/apbd.xls'));
     }
 
     public function akun($kode_akun)

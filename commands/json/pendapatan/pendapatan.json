@@ -1,0 +1,629 @@
+[
+  {
+    "id_unit": 1999,
+    "id_skpd": 1999,
+    "kode_skpd": "1.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1999,
+      "nama_skpd": "1.01.0.00.0.00.01.0000 Dinas Pendidikan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1836,
+    "id_skpd": 1836,
+    "kode_skpd": "1.02.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1836,
+      "nama_skpd": "1.02.0.00.0.00.01.0000 Dinas Kesehatan"
+    },
+    "nilaitotal": "274470398792",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1837,
+    "id_skpd": 1837,
+    "kode_skpd": "1.03.0.00.0.00.14.0000",
+    "nama_skpd": {
+      "id_skpd": 1837,
+      "nama_skpd": "1.03.0.00.0.00.14.0000 Dinas Pekerjaan Umum"
+    },
+    "nilaitotal": "1200000000",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1838,
+    "id_skpd": 1838,
+    "kode_skpd": "1.04.1.03.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1838,
+      "nama_skpd": "1.04.1.03.0.00.01.0000 Dinas Perumahan, Kawasan Permukiman dan Penataan Ruang"
+    },
+    "nilaitotal": "1800000000",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1841,
+    "id_skpd": 1841,
+    "kode_skpd": "1.05.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1841,
+      "nama_skpd": "1.05.0.00.0.00.01.0000 Satuan Polisi Pamong Praja"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1839,
+    "id_skpd": 1839,
+    "kode_skpd": "1.05.0.00.0.00.06.0000",
+    "nama_skpd": {
+      "id_skpd": 1839,
+      "nama_skpd": "1.05.0.00.0.00.06.0000 Dinas Pencegah dan Pemadam Kebakaran"
+    },
+    "nilaitotal": "2300000000",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1842,
+    "id_skpd": 1842,
+    "kode_skpd": "1.05.1.06.0.00.04.0000",
+    "nama_skpd": {
+      "id_skpd": 1842,
+      "nama_skpd": "1.05.1.06.0.00.04.0000 Badan Penanggulangan Bencana Daerah"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1843,
+    "id_skpd": 1843,
+    "kode_skpd": "1.06.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1843,
+      "nama_skpd": "1.06.0.00.0.00.01.0000 Dinas Sosial"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1844,
+    "id_skpd": 1844,
+    "kode_skpd": "2.07.0.00.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 1844,
+      "nama_skpd": "2.07.0.00.0.00.02.0000 Dinas Ketenagakerjaan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1845,
+    "id_skpd": 1845,
+    "kode_skpd": "2.08.2.13.0.00.04.0000",
+    "nama_skpd": {
+      "id_skpd": 1845,
+      "nama_skpd": "2.08.2.13.0.00.04.0000 Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Pemberdayaan Masyarakat"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1846,
+    "id_skpd": 1846,
+    "kode_skpd": "2.09.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1846,
+      "nama_skpd": "2.09.0.00.0.00.01.0000 Dinas Ketahanan Pangan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1847,
+    "id_skpd": 1847,
+    "kode_skpd": "2.11.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1847,
+      "nama_skpd": "2.11.0.00.0.00.01.0000 Dinas Lingkungan Hidup"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1849,
+    "id_skpd": 1849,
+    "kode_skpd": "2.11.1.03.0.00.12.0000",
+    "nama_skpd": {
+      "id_skpd": 1849,
+      "nama_skpd": "2.11.1.03.0.00.12.0000 Dinas Kebersihan dan Pertamanan"
+    },
+    "nilaitotal": "30573886043",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1850,
+    "id_skpd": 1850,
+    "kode_skpd": "2.12.0.00.0.00.03.0000",
+    "nama_skpd": {
+      "id_skpd": 1850,
+      "nama_skpd": "2.12.0.00.0.00.03.0000 Dinas Kependudukan dan Pencatatan Sipil"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1851,
+    "id_skpd": 1851,
+    "kode_skpd": "2.14.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1851,
+      "nama_skpd": "2.14.0.00.0.00.01.0000 Dinas Pengendalian Penduduk dan Keluarga Berencana"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1852,
+    "id_skpd": 1852,
+    "kode_skpd": "2.15.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1852,
+      "nama_skpd": "2.15.0.00.0.00.01.0000 Dinas Perhubungan"
+    },
+    "nilaitotal": "37363838650",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1853,
+    "id_skpd": 1853,
+    "kode_skpd": "2.16.2.20.2.21.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1853,
+      "nama_skpd": "2.16.2.20.2.21.01.0000 Dinas Komunikasi dan Informatika"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1854,
+    "id_skpd": 1854,
+    "kode_skpd": "2.17.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1854,
+      "nama_skpd": "2.17.0.00.0.00.01.0000 Dinas Koperasi, Usaha Kecil, dan Menengah"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 2000,
+    "id_skpd": 2000,
+    "kode_skpd": "2.18.0.00.0.00.23.0000",
+    "nama_skpd": {
+      "id_skpd": 2000,
+      "nama_skpd": "2.18.0.00.0.00.23.0000 Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu"
+    },
+    "nilaitotal": "67337762684",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 2001,
+    "id_skpd": 2001,
+    "kode_skpd": "2.19.2.19.2.19.03.0000",
+    "nama_skpd": {
+      "id_skpd": 2001,
+      "nama_skpd": "2.19.2.19.2.19.03.0000 Dinas Pemuda dan Olahraga"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1855,
+    "id_skpd": 1855,
+    "kode_skpd": "2.22.2.22.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1855,
+      "nama_skpd": "2.22.2.22.0.00.01.0000 Dinas Kebudayaan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1856,
+    "id_skpd": 1856,
+    "kode_skpd": "2.23.2.24.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 1856,
+      "nama_skpd": "2.23.2.24.0.00.02.0000 Dinas Perpustakaan dan Kearsipan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1857,
+    "id_skpd": 1857,
+    "kode_skpd": "3.26.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1857,
+      "nama_skpd": "3.26.0.00.0.00.01.0000 Dinas Pariwisata"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1858,
+    "id_skpd": 1858,
+    "kode_skpd": "3.27.3.25.0.00.10.0000",
+    "nama_skpd": {
+      "id_skpd": 1858,
+      "nama_skpd": "3.27.3.25.0.00.10.0000 Dinas Pertanian dan Perikanan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1859,
+    "id_skpd": 1859,
+    "kode_skpd": "3.30.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1859,
+      "nama_skpd": "3.30.0.00.0.00.01.0000 Dinas Perdagangan"
+    },
+    "nilaitotal": "500000000",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 2002,
+    "id_skpd": 2002,
+    "kode_skpd": "3.31.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 2002,
+      "nama_skpd": "3.31.0.00.0.00.01.0000 Dinas Perindustrian"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1964,
+    "id_skpd": 1964,
+    "kode_skpd": "4.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1964,
+      "nama_skpd": "4.01.0.00.0.00.01.0000 Sekretariat Daerah"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1860,
+    "id_skpd": 1860,
+    "kode_skpd": "4.02.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1860,
+      "nama_skpd": "4.02.0.00.0.00.01.0000 Sekretariat DPRD"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1886,
+    "id_skpd": 1886,
+    "kode_skpd": "5.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1886,
+      "nama_skpd": "5.01.0.00.0.00.01.0000 Badan Perencanaan Pembangunan Daerah"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 2068,
+    "id_skpd": 2068,
+    "kode_skpd": "5.02.0.00.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 2068,
+      "nama_skpd": "5.02.0.00.0.00.02.0000 SKPKD"
+    },
+    "nilaitotal": "3036989942122",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1887,
+    "id_skpd": 1887,
+    "kode_skpd": "5.02.0.00.0.00.05.0000",
+    "nama_skpd": {
+      "id_skpd": 1887,
+      "nama_skpd": "5.02.0.00.0.00.05.0000 Badan Pengelola Pajak dan Retribusi Daerah"
+    },
+    "nilaitotal": "1698775431828",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1888,
+    "id_skpd": 1888,
+    "kode_skpd": "5.02.0.00.0.00.06.0000",
+    "nama_skpd": {
+      "id_skpd": 1888,
+      "nama_skpd": "5.02.0.00.0.00.06.0000 Badan Pengelola Keuangan dan Aset Daerah"
+    },
+    "nilaitotal": "45154254088",
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1889,
+    "id_skpd": 1889,
+    "kode_skpd": "5.03.5.04.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 1889,
+      "nama_skpd": "5.03.5.04.0.00.02.0000 Badan Kepegawaian Daerah dan Pengembangan Sumber Daya Manusia"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 2004,
+    "id_skpd": 2004,
+    "kode_skpd": "5.05.5.05.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 2004,
+      "nama_skpd": "5.05.5.05.0.00.02.0000 Badan Penelitian dan Pengembangan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1883,
+    "id_skpd": 1883,
+    "kode_skpd": "6.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1883,
+      "nama_skpd": "6.01.0.00.0.00.01.0000 Inspektorat"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1861,
+    "id_skpd": 1861,
+    "kode_skpd": "7.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1861,
+      "nama_skpd": "7.01.0.00.0.00.01.0000 Kecamatan Medan Belawan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1862,
+    "id_skpd": 1862,
+    "kode_skpd": "7.01.0.00.0.00.02.0000",
+    "nama_skpd": {
+      "id_skpd": 1862,
+      "nama_skpd": "7.01.0.00.0.00.02.0000 Kecamatan Medan Labuhan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1863,
+    "id_skpd": 1863,
+    "kode_skpd": "7.01.0.00.0.00.03.0000",
+    "nama_skpd": {
+      "id_skpd": 1863,
+      "nama_skpd": "7.01.0.00.0.00.03.0000 Kecamatan Medan Kota"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1864,
+    "id_skpd": 1864,
+    "kode_skpd": "7.01.0.00.0.00.04.0000",
+    "nama_skpd": {
+      "id_skpd": 1864,
+      "nama_skpd": "7.01.0.00.0.00.04.0000 Kecamatan Medan Timur"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1865,
+    "id_skpd": 1865,
+    "kode_skpd": "7.01.0.00.0.00.05.0000",
+    "nama_skpd": {
+      "id_skpd": 1865,
+      "nama_skpd": "7.01.0.00.0.00.05.0000 Kecamatan Medan Helvetia"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1866,
+    "id_skpd": 1866,
+    "kode_skpd": "7.01.0.00.0.00.06.0000",
+    "nama_skpd": {
+      "id_skpd": 1866,
+      "nama_skpd": "7.01.0.00.0.00.06.0000 Kecamatan Medan Marelan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1867,
+    "id_skpd": 1867,
+    "kode_skpd": "7.01.0.00.0.00.07.0000",
+    "nama_skpd": {
+      "id_skpd": 1867,
+      "nama_skpd": "7.01.0.00.0.00.07.0000 Kecamatan Medan Denai"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1868,
+    "id_skpd": 1868,
+    "kode_skpd": "7.01.0.00.0.00.08.0000",
+    "nama_skpd": {
+      "id_skpd": 1868,
+      "nama_skpd": "7.01.0.00.0.00.08.0000 Kecamatan Medan Area"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1869,
+    "id_skpd": 1869,
+    "kode_skpd": "7.01.0.00.0.00.09.0000",
+    "nama_skpd": {
+      "id_skpd": 1869,
+      "nama_skpd": "7.01.0.00.0.00.09.0000 Kecamatan Medan Baru"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1870,
+    "id_skpd": 1870,
+    "kode_skpd": "7.01.0.00.0.00.10.0000",
+    "nama_skpd": {
+      "id_skpd": 1870,
+      "nama_skpd": "7.01.0.00.0.00.10.0000 Kecamatan Medan Polonia"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1871,
+    "id_skpd": 1871,
+    "kode_skpd": "7.01.0.00.0.00.11.0000",
+    "nama_skpd": {
+      "id_skpd": 1871,
+      "nama_skpd": "7.01.0.00.0.00.11.0000 Kecamatan Medan Tembung"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1872,
+    "id_skpd": 1872,
+    "kode_skpd": "7.01.0.00.0.00.12.0000",
+    "nama_skpd": {
+      "id_skpd": 1872,
+      "nama_skpd": "7.01.0.00.0.00.12.0000 Kecamatan Medan Perjuangan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1873,
+    "id_skpd": 1873,
+    "kode_skpd": "7.01.0.00.0.00.13.0000",
+    "nama_skpd": {
+      "id_skpd": 1873,
+      "nama_skpd": "7.01.0.00.0.00.13.0000 Kecamatan Medan Barat"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1874,
+    "id_skpd": 1874,
+    "kode_skpd": "7.01.0.00.0.00.14.0000",
+    "nama_skpd": {
+      "id_skpd": 1874,
+      "nama_skpd": "7.01.0.00.0.00.14.0000 Kecamatan Medan Tuntungan"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1875,
+    "id_skpd": 1875,
+    "kode_skpd": "7.01.0.00.0.00.15.0000",
+    "nama_skpd": {
+      "id_skpd": 1875,
+      "nama_skpd": "7.01.0.00.0.00.15.0000 Kecamatan Medan Selayang"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1876,
+    "id_skpd": 1876,
+    "kode_skpd": "7.01.0.00.0.00.16.0000",
+    "nama_skpd": {
+      "id_skpd": 1876,
+      "nama_skpd": "7.01.0.00.0.00.16.0000 Kecamatan Medan Petisah"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1877,
+    "id_skpd": 1877,
+    "kode_skpd": "7.01.0.00.0.00.17.0000",
+    "nama_skpd": {
+      "id_skpd": 1877,
+      "nama_skpd": "7.01.0.00.0.00.17.0000 Kecamatan Medan Johor"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1878,
+    "id_skpd": 1878,
+    "kode_skpd": "7.01.0.00.0.00.18.0000",
+    "nama_skpd": {
+      "id_skpd": 1878,
+      "nama_skpd": "7.01.0.00.0.00.18.0000 Kecamatan Medan Maimun"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1879,
+    "id_skpd": 1879,
+    "kode_skpd": "7.01.0.00.0.00.19.0000",
+    "nama_skpd": {
+      "id_skpd": 1879,
+      "nama_skpd": "7.01.0.00.0.00.19.0000 Kecamatan Medan Deli"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1880,
+    "id_skpd": 1880,
+    "kode_skpd": "7.01.0.00.0.00.20.0000",
+    "nama_skpd": {
+      "id_skpd": 1880,
+      "nama_skpd": "7.01.0.00.0.00.20.0000 Kecamatan Medan Amplas"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1881,
+    "id_skpd": 1881,
+    "kode_skpd": "7.01.0.00.0.00.21.0000",
+    "nama_skpd": {
+      "id_skpd": 1881,
+      "nama_skpd": "7.01.0.00.0.00.21.0000 Kecamatan Medan Sunggal"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  },
+  {
+    "id_unit": 1840,
+    "id_skpd": 1840,
+    "kode_skpd": "8.01.0.00.0.00.01.0000",
+    "nama_skpd": {
+      "id_skpd": 1840,
+      "nama_skpd": "8.01.0.00.0.00.01.0000 Badan Kesatuan Bangsa dan Politik"
+    },
+    "nilaitotal": null,
+    "nilaimurni": 0
+  }
+]
