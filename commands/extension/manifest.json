@@ -12,6 +12,7 @@
 	"background" : {
 		"persistent": true,
 		"scripts": [
+			"config.js",
 			"vendor/js/jquery.js",
 			"background.js"
 		]
@@ -23,6 +24,7 @@
 			],
 			"css": [],
 			"js": [
+				"config.js",
 				"vendor/js/jquery.js",
 				"js/base.js"
 			],

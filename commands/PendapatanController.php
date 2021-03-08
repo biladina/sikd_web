@@ -195,7 +195,7 @@ class PendapatanController extends Controller
                 ],
                 [
                     'label' => 'kodeAkunSub',
-                    'value' => function($model) {return '0'.substr($model->kode_akun, 13, 3);}
+                    'value' => function($model) {return substr($model->kode_akun, 13, 4);}
                 ],
                 [
                     'attribute' => 'nama_akun',

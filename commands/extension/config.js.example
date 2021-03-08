@@ -1,0 +1,6 @@
+var config = {
+	tahun_anggaran : "2021",
+	id_daerah : "156",
+	url : "https://medan.sipd.kemendagri.go.id/"
+	url_lokal : "http://localhost/sikd_web"
+};
