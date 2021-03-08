@@ -1,0 +1,48 @@
+{
+	"manifest_version": 2,
+	"name": "SIPD Extension",
+	"version": "1.0",
+	"author": "Biladina Inc.",
+	"description": "ekstensi tambahan untuk mengelola data SIPD",
+	"icons": {
+		"16": "img/icon/icon.png",
+		"48": "img/icon/icon.png",
+		"128": "img/icon/icon.png"
+	},
+	"background" : {
+		"persistent": true,
+		"scripts": [
+			"vendor/js/jquery.js",
+			"background.js"
+		]
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.sipd.kemendagri.go.id/*"
+			],
+			"css": [],
+			"js": [
+				"vendor/js/jquery.js",
+				"js/base.js"
+			],
+			"run_at": "document_end"
+		},
+		{
+			"matches": [
+				"https://*.sipd.kemendagri.go.id/*"
+			],
+			"js": [],
+			"run_at": "document_start"
+		}
+	],
+	"permissions": [
+		"contextMenus",
+		"webRequest",
+		"https://*/",
+		"http://*/",
+		"activeTab",
+		"storage",
+		"tabs"
+	]
+}

@@ -15,3 +15,12 @@ https://medan.sipd.kemendagri.go.id/daerah/main/budget/rekap/2021/tampil-belanja
 
 csv_to_json
 https://www.convertcsv.com/csv-to-json.htm
+
+sub_kegiatan_belanja
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/belanja/2021/giat/tampil-giat/156/1886
+
+rincian_belanja_paket
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/belanja/2021/rinci/tampil-rincian/156/1886?kodesbl=1886.1886.422.1865.8900
+
+paket_belanja
+https://medan.sipd.kemendagri.go.id/daerah/main/budget/belanja/2021/rinci/tampil-rekap-paket/156/1999?kodesbl=1999.1999.422.1860.8858
