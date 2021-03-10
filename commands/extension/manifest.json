@@ -1,5 +1,6 @@
 {
 	"manifest_version": 2,
+	"minimum_chrome_version": "18.0",
 	"name": "SIPD Extension",
 	"version": "1.0",
 	"author": "Biladina Inc.",
@@ -46,5 +47,10 @@
 		"activeTab",
 		"storage",
 		"tabs"
-	]
+	],
+	"applications": {
+		"gecko": {
+			"id": "sipd-extension@biladina"
+		}
+	}
 }
