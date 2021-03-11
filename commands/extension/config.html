@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<script src="vendor/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend id="Options">Pengaturan SIPD</legend>
+				<p id="optionslegend">Sesuaikan pengaturan SIPD dengan data daerah masing-masing.</p>
+				<table>
+					<tr>
+						<td>Contoh Tahun Anggaran</td>
+						<td>:</td>
+						<td>2021</td>
+					</tr>
+					<tr>
+						<td>Contoh ID Daerah</td>
+						<td>:</td>
+						<td>156</td>
+					</tr>
+					<tr>
+						<td>Contoh URL SIPD Daerah</td>
+						<td>:</td>
+						<td>https://medan.sipd.kemendagri.go.id/daerah/</td>
+					</tr>
+					<tr>
+						<td>Contoh URL Aplikasi Lokal</td>
+						<td>:</td>
+						<td>http://localhost/sikd_web/web/</td>
+					</tr>
+				</table><br>
+				<table class="table table-responsive">
+					<tr>
+						<td class="text-nowrap">Tahun Anggaran</td>
+						<td><input type="text" id="tahun_anggaran" size=50 ></td>
+					</tr>
+					<tr>
+						<td class="text-nowrap">ID Daerah</td>
+						<td><input type="text" id="id_daerah" size=50 ></td>
+					</tr>
+					<tr>
+						<td class="text-nowrap">URL SIPD Daerah</td>
+						<td><input type="text" id="url" size=50 ></td>
+					</tr>
+					<tr>
+						<td class="text-nowrap">URL Aplikasi Lokal</td>
+						<td><input type="text" id="url_lokal" size=50 ></td>
+					</tr>
+				</table><br>
+				<div class="text-center">
+					<button type="submit" id="btnsave" class="btn btn-primary">Simpan</button>
+				</div><br>
+			</fieldset>
+		</form>
+		<script src="config.js"></script>
+	</body>
+</html>

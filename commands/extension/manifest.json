@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"minimum_chrome_version": "18.0",
 	"name": "SIPD Extension",
-	"version": "1.0",
+	"version": "1.1",
 	"author": "Biladina Inc.",
 	"description": "ekstensi tambahan untuk mengelola data SIPD",
 	"icons": {
@@ -13,7 +13,6 @@
 	"background" : {
 		"persistent": true,
 		"scripts": [
-			"config.js",
 			"vendor/js/jquery.js",
 			"background.js"
 		]
@@ -25,7 +24,6 @@
 			],
 			"css": [],
 			"js": [
-				"config.js",
 				"vendor/js/jquery.js",
 				"js/base.js"
 			],
@@ -52,5 +50,9 @@
 		"gecko": {
 			"id": "sipd-extension@biladina"
 		}
+	},
+	"options_ui": {
+		// "open_in_tab": true,
+		"page": "config.html"
 	}
 }
