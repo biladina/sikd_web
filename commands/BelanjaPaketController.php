@@ -7,141 +7,85 @@ use yii\console\Controller;
 use yii\helpers\Json;
 use yii\console\ExitCode;
 use yii2tech\spreadsheet\Spreadsheet;
+// use yii2tech\csvgrid\CsvGrid;
 use yii\data\ActiveDataProvider;
 
-class PendapatanController extends Controller
+class BelanjaPaketController extends Controller
 {
-	public function actionSkpd()
-    {
-        $json = file_get_contents(Yii::getAlias('@app/commands/json/pendapatan/pendapatan.json'));
-        $skpd = Json::decode($json);
-
-        foreach($skpd as $skpd)
-        {
-        	$model = \app\models\Skpd::findOne(['id_unit' => $skpd['id_unit'], 'id_skpd' => $skpd['id_skpd']]);
-
-        	if($model)
-        	{
-        		$model->nilai_total = $skpd['nilaitotal'];
-	        	$model->nilai_murni = (string)$skpd['nilaimurni'];
-
-	        	if($model->save())
-	        	{
-	        		echo "saved";
-	        	}
-	        	else
-	        	{
-	        		var_dump($model->errors);
-	        		// echo "fail";
-	        	}
-        	}
-        	else
-        	{
-        		echo "bad";
-        	}
-        }
-    }
-
-    public function actionPendapatan()
-    {
-        $json = file_get_contents(Yii::getAlias('@app/commands/json/pendapatan/pendapatan_skpkd.json'));
-        $pendapatan = Json::decode($json);
-
-        foreach($pendapatan as $pendapatan)
-        {
-        	$model = new \app\models\Pendapatan();
-
-        	$model->id_pendapatan = $pendapatan['id_pendapatan'];
-        	$model->kode_akun = $pendapatan['kode_akun'];
-        	$model->nama_akun = $pendapatan['nama_akun'];
-        	$model->uraian = $pendapatan['uraian'];
-        	$model->keterangan = $pendapatan['keterangan'];
-        	$model->skpd_koordinator = $pendapatan['skpd_koordinator'];
-        	$model->urusan_koordinator = $pendapatan['urusan_koordinator'];
-        	$model->program_koordinator = $pendapatan['program_koordinator'];
-        	$model->total = $pendapatan['total'];
-        	$model->created_user = $pendapatan['created_user'];
-        	$model->createddate = $pendapatan['createddate'];
-        	$model->createdtime = $pendapatan['createdtime'];
-        	$model->updated_user = $pendapatan['updated_user'];
-        	$model->updateddate = $pendapatan['updateddate'];
-        	$model->updatedtime = $pendapatan['updatedtime'];
-        	$model->rekening = $pendapatan['rekening'];
-        	$model->user1 = $pendapatan['user1'];
-        	$model->user2 = $pendapatan['user2'];
-        	$model->nilaimurni = $pendapatan['nilaimurni'];
-
-        	if($model->save())
-        	{
-        		echo "saved";
-        	}
-        	else
-        	{
-        		echo "fail";
-        	}
-        }
-    }
-
-    public function actionExcel()
+	public function actionExcelBelanjaPaket()
     {
         $exporter = new Spreadsheet([
-            'dataProvider' => new ActiveDataProvider([
-                'query' => \app\models\Pendapatan::find()->orderBy(['skpd_koordinator' => SORT_ASC]),
-            ]),
+          //   'dataProvider' => new ActiveDataProvider([
+          //       'query' => \app\models\SubKegiatanBelanjaPaket::find(),
+          //       'pagination' => [
+		        //     'pageSize' => 500,
+		        // ],
+          //   ]),
+            'query' => \app\models\SubKegiatanBelanjaPaket::find(),
+            'batchSize' => 2000,
             'columns' => [
                 [
-                    'label' => 'kodeUrusanProgram',
-                    'value' => function($model) { return (string)'0.00 '; }
+                    'attribute' => 'kode_urusan',
+                    'label' => 'kodeUrusanProgram'
                 ],
                 [
+                    'attribute' => 'nama_urusan',
                     'label' => 'namaUrusanProgram',
-                    'value' => function($model) { return 'Non Urusan'; }
                 ],
                 [
                     'label' => 'kodeUrusanPelaksana',
-                    'value' => function($model) { return substr($this->skpd($model->skpd_koordinator, 'kode_skpd'), 0, 4).' '; }
+                    'value' => function($model) {
+                        return substr($model->kode_skpd, 0, 4);
+                    }
                 ],
                 [
                     'label' => 'namaUrusanPelaksana',
                     'value' => function($model) {
-                        return $this->urusan_bidang(substr($this->skpd($model->skpd_koordinator, 'kode_skpd'), 0, 4));
+                        return $this->urusan_bidang(substr($model->kode_skpd, 0, 4));
                     }
                 ],
                 [
+                    'attribute' => 'kode_skpd',
                     'label' => 'kodeSKPD',
-                    'value' => function($model) {
-                        return $this->skpd($model->skpd_koordinator, 'kode_skpd');
-                    }
                 ],
                 [
+                    'attribute' => 'nama_skpd',
                     'label' => 'namaSKPD',
-                    'value' => function($model) {
-                        return $this->skpd($model->skpd_koordinator, 'nama_skpd');
-                    }
                 ],
                 [
+                    'attribute' => 'kode_program',
                     'label' => 'kodeProgram',
-                    'value' => function($model) { return (string)'000'; }
+                    'value' => function($model) {return (string)'0'.substr($model->kode_program, 5).' ';}
                 ],
                 [
+                    'attribute' => 'nama_program',
                     'label' => 'namaProgram',
-                    'value' => function($model) { return 'Non Program'; }
                 ],
                 [
+                    'attribute' => 'kode_sub_giat',
                     'label' => 'kodeKegiatan',
-                    'value' => function($model) { return (string)'0.0000 '; }
+                    'value' => function($model) {return (string)'0'.str_replace(".","", substr($model->kode_sub_giat, 8)).' ';}
                 ],
                 [
+                    'attribute' => 'nama_giat',
                     'label' => 'namaKegiatan',
-                    'value' => function($model) { return 'Non Kegiatan'; }
+                    'value' => function($model) {return $model->nama_giat.'|'.$model->nama_sub_giat;}
                 ],
                 [
                     'label' => 'kodeFungsi',
-                    'value' => function($model) { return (string)'0000'; }
+                    'value' => function($model) {
+                        $kode_urusan = substr($model->kode_bidang_urusan, 0, 1);
+                        $kode_bidang = substr($model->kode_bidang_urusan, 2, 2);
+                        return $this->kode_fungsi($kode_urusan, $kode_bidang);
+                    }
                 ],
                 [
                     'label' => 'namaFungsi',
-                    'value' => function($model) { return 'Non Fungsi|Non Sub Fungsi'; }
+                    'value' => function($model) {
+                        $kode_urusan = substr($model->kode_bidang_urusan, 0, 1);
+                        $kode_bidang = substr($model->kode_bidang_urusan, 2, 2);
+                        return $this->fungsi($kode_urusan, $kode_bidang);
+                    }
                 ],
                 [
                     'label' => 'kodeAkunUtama',
@@ -200,15 +144,57 @@ class PendapatanController extends Controller
                 [
                     'attribute' => 'nama_akun',
                     'label' => 'namaAkunSub',
+                    'value' => function($model) {
+                        return substr($model->nama_akun, 17);
+                    }
                 ],
                 [
-                	'attribute' => 'total',
+                    'attribute' => 'subs_bl_teks',
+                    'label' => 'paket',
+                    'value' => function($model) {
+                        return substr($model->subs_bl_teks, 3);
+                    }
+                ],
+                [
+                    'attribute' => 'ket_bl_teks',
+                    'label' => 'keterangan_paket',
+                    'value' => function($model) {
+                        return substr($model->ket_bl_teks, 3);
+                    }
+                ],
+                [
+                    'attribute' => 'kode_standar_harga',
+                    'label' => 'kode_ssh'
+                ],
+                [
+                    'attribute' => 'nama_komponen',
+                    'label' => 'nama_ssh'
+                ],
+                [
+                    'attribute' => 'spek_komponen',
+                    'label' => 'spesifikasi_ssh'
+                ],
+                [
+                    'attribute' => 'volume',
+                    'label' => 'volume'
+                ],
+                [
+                    'attribute' => 'satuan',
+                    'label' => 'satuan'
+                ],
+                [
+                    'attribute' => 'harga_satuan',
+                    'label' => 'harga_satuan'
+                ],
+                [
+                    'attribute' => 'rincian',
                     'label' => 'nilaiAnggaran'
                 ],
             ],
         ]);
         
-        $exporter->save(Yii::getAlias('@app/commands/excel/pendapatan.xls'));
+        // $exporter->export()->saveAs(Yii::getAlias('@app/commands/excel/belanja_paket.csv'));
+        $exporter->save(Yii::getAlias('@app/commands/excel/belanja_paket.xls'));
     }
 
     private function urusan_bidang($urusan_bidang)
@@ -223,6 +209,20 @@ class PendapatanController extends Controller
         $akun = \app\models\AkunBelanja::find()->where(['kode_akun' => $kode_akun])->one();
 
         return $akun->nama_akun;
+    }
+
+    private function kode_fungsi($kode_urusan, $kode_bidang)
+    {
+        $fungsi = \app\models\Fungsi::find()->where(['kode_urusan' => $kode_urusan, 'kode_bidang' => $kode_bidang])->one();
+
+        return (string)$fungsi->kode_fungsi.''.$fungsi->kode_sub_fungsi;
+    }
+
+    private function fungsi($kode_urusan, $kode_bidang)
+    {
+        $fungsi = \app\models\Fungsi::find()->where(['kode_urusan' => $kode_urusan, 'kode_bidang' => $kode_bidang])->one();
+
+        return $fungsi->fungsi.'|'.$fungsi->sub_fungsi;
     }
 
     private function skpd($id_skpd, $mode)

@@ -395,21 +395,21 @@ class BelanjaController extends Controller
         $exporter->save(Yii::getAlias('@app/commands/excel/apbd.xls'));
     }
 
-    public function akun($kode_akun)
+    private function akun($kode_akun)
     {
         $akun = \app\models\AkunBelanja::find()->where(['kode_akun' => $kode_akun])->one();
 
         return $akun->nama_akun;
     }
 
-    public function kode_fungsi($kode_urusan, $kode_bidang)
+    private function kode_fungsi($kode_urusan, $kode_bidang)
     {
         $fungsi = \app\models\Fungsi::find()->where(['kode_urusan' => $kode_urusan, 'kode_bidang' => $kode_bidang])->one();
 
         return (string)$fungsi->kode_fungsi.''.$fungsi->kode_sub_fungsi;
     }
 
-    public function fungsi($kode_urusan, $kode_bidang)
+    private function fungsi($kode_urusan, $kode_bidang)
     {
         $fungsi = \app\models\Fungsi::find()->where(['kode_urusan' => $kode_urusan, 'kode_bidang' => $kode_bidang])->one();
 
