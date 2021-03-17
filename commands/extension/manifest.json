@@ -47,7 +47,9 @@
 		"http://*/",
 		"activeTab",
 		"storage",
-		"tabs"
+		"tabs",
+		"webRequest",
+		"webRequestBlocking"
 	],
 	"applications": {
 		"gecko": {
