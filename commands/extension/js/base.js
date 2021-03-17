@@ -1,6 +1,5 @@
 jQuery(document).ready(function(){
-
-	var current_url = window.location.href;
+	// var current_url = window.location.href;
 
 	browser.storage.local.get(data => {
 		var config_tahun_anggaran = data.tahun_anggaran;
@@ -8,7 +7,8 @@ jQuery(document).ready(function(){
 		var config_url = data.url;
 		var config_url_lokal = data.url_lokal;
 
-		if (current_url.indexOf('main/budget/belanja/'+config_tahun_anggaran+'/giat/unit/'+config_id_daerah+'/0') != -1)
+		// if (current_url.indexOf('main/budget/belanja/'+config_tahun_anggaran+'/giat/unit/'+config_id_daerah+'/0') != -1)
+		if (jQuery('.page-title').text() == 'Kegiatan / Sub Kegiatan Belanja' && jQuery('#table_unit').length > 0)
 		{
 	        var btn_sub_kegiatan_belanja = '<div class="button">'
 	            + '<button class="fcbtn btn btn-primary btn-1b" id="btn_sub_kegiatan_belanja">'
