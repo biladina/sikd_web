@@ -62,9 +62,10 @@ class SipdController extends \yii\rest\Controller
 			{
 				if($data['rincian'] > 0)
 				{
-					$model = \app\models\SubKegiatanBelanja::findOne(['id_unit' => $data['id_unit'], 'id_skpd' => $data['id_skpd'], 'id_sub_skpd' => $data['id_sub_skpd'], 'id_program' => $data['id_program'], 'id_giat' => $data['id_giat'], 'id_sub_giat' => $data['id_sub_giat']]);
+					// $model = \app\models\SubKegiatanBelanja::findOne(['id_unit' => $data['id_unit'], 'id_skpd' => $data['id_skpd'], 'id_sub_skpd' => $data['id_sub_skpd'], 'id_program' => $data['id_program'], 'id_giat' => $data['id_giat'], 'id_sub_giat' => $data['id_sub_giat']]);
+					// if(!$model) { $model = new \app\models\SubKegiatanBelanja(); }
 
-					if(!$model) { $model = new \app\models\SubKegiatanBelanja(); }
+					$model = new \app\models\SubKegiatanBelanja();
 
 					$model->id_jadwal = $data['id_jadwal'];
 	                $model->id_daerah = $data['id_daerah'];
@@ -167,9 +168,10 @@ class SipdController extends \yii\rest\Controller
 
         	foreach($data as $data)
 			{
-				$model = \app\models\SubKegiatanBelanjaPaket::findOne(['id_unit' => $data['id_unit'], 'id_skpd' => $data['id_skpd'], 'id_sub_skpd' => $data['id_sub_skpd'], 'id_program' => $data['id_program'], 'id_giat' => $data['id_giat'], 'id_sub_giat' => $data['id_sub_giat'], 'id_akun' => $data['id_akun'], 'id_standar_harga' => $data['id_standar_harga'] ]);
+				// $model = \app\models\SubKegiatanBelanjaPaket::findOne(['id_unit' => $data['id_unit'], 'id_skpd' => $data['id_skpd'], 'id_sub_skpd' => $data['id_sub_skpd'], 'id_program' => $data['id_program'], 'id_giat' => $data['id_giat'], 'id_sub_giat' => $data['id_sub_giat'], 'id_akun' => $data['id_akun'], 'id_standar_harga' => $data['id_standar_harga'] ]);
+				// if(!$model) { $model = new \app\models\SubKegiatanBelanjaPaket(); }
 
-				if(!$model) { $model = new \app\models\SubKegiatanBelanjaPaket(); }
+				$model = new \app\models\SubKegiatanBelanjaPaket();
 
 				$model->id_jadwal = $data['id_jadwal'];
                 $model->id_daerah = $data['id_daerah'];

@@ -97,7 +97,6 @@ class SubKegiatanBelanjaPaket extends \yii\db\ActiveRecord
             [['id_jadwal', 'id_daerah', 'tahun', 'id_unit', 'id_skpd', 'id_urusan', 'id_bidang_urusan', 'id_sub_skpd', 'id_program', 'id_giat', 'id_sub_giat', 'id_akun', 'is_paket', 'id_standar_harga', 'id_rinci_sub_bl', 'kunci_bl_rinci', 'urusan_locked', 'bidang_urusan_locked', 'program_locked', 'giat_locked', 'sub_giat_locked', 'akun_locked'], 'integer'],
             [['kode_skpd', 'nama_skpd', 'kode_urusan', 'nama_urusan', 'kode_bidang_urusan', 'nama_bidang_urusan', 'kode_sub_skpd', 'nama_sub_skpd', 'kode_program', 'nama_program', 'kode_giat', 'nama_giat', 'kode_sub_giat', 'nama_sub_giat', 'pagu', 'kode_akun', 'nama_akun', 'lokus_akun_teks', 'jenis_bl', 'subs_bl_teks', 'ket_bl_teks', 'kode_standar_harga', 'nama_komponen', 'spek_komponen', 'satuan', 'rincian', 'volume', 'harga_satuan', 'koefisien', 'vol_1', 'sat_1', 'vol_2', 'sat_2', 'vol_3', 'sat_3', 'vol_4', 'sat_4', 'user_created', 'created_date', 'created_time', 'user_updated', 'updated_date', 'updated_time', 'set_zona'], 'string'],
             [['pajak', 'totalpajak', 'pajakmurni'], 'number'],
-            [['id_unit', 'id_skpd', 'id_sub_skpd', 'id_program', 'id_giat', 'id_sub_giat', 'id_akun', 'id_standar_harga'], 'unique', 'targetAttribute' => ['id_unit', 'id_skpd', 'id_sub_skpd', 'id_program', 'id_giat', 'id_sub_giat', 'id_akun', 'id_standar_harga']],
         ];
     }
 
