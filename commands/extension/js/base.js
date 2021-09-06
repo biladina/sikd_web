@@ -43,6 +43,8 @@ jQuery(document).ready(function(){
 	        {
 	            jQuery.ajax({
 		            url: config_url + 'main/budget/belanja/'+config_tahun_anggaran+'/giat/tampil-unit/'+config_id_daerah+'/0',
+		            type: 'POST',
+          			data : {"_token":tokek},
 		            contentType: 'application/json',
 		            success: function (data_skpd) {
 						for(var i in data_skpd.data)
@@ -51,6 +53,8 @@ jQuery(document).ready(function(){
 
 							jQuery.ajax({
 					            url: config_url + 'main/budget/belanja/'+config_tahun_anggaran+'/giat/tampil-giat/'+config_id_daerah+'/'+id_unit,
+					            type: 'POST',
+          						data : {"_token":tokek},
 					            contentType: 'application/json',
 					            success: function (data_sub_kegiatan_belanja)
 					            {
@@ -123,20 +127,20 @@ jQuery(document).ready(function(){
 			                            sub_kegiatan_belanja[i].stat_reses = sub_kegiatan.stat_usul.stat_reses;
 			                        });
 
-			                        // console.log(JSON.stringify(sub_kegiatan_belanja));
+			                        console.log(JSON.stringify(sub_kegiatan_belanja));
 
 			                        // console.log(config_url_lokal + '?r=sipd/sub-kegiatan-belanja&data='+JSON.stringify(sub_kegiatan_belanja));
 			                        // console.log(config_url_lokal + '?r=sipd/sub-kegiatan-belanja');
 
-			                        jQuery.ajax({
-							            // url: config_url_lokal + '?r=sipd/sub-kegiatan-belanja&data='+JSON.stringify(sub_kegiatan_belanja),
-							            url: config_url_lokal + '?r=sipd/sub-kegiatan-belanja',
-							            type: "POST",
-							            data: {data : JSON.stringify(sub_kegiatan_belanja)},
-							            success: function (data) {
-							            	console.log(data);
-							            }
-							        });
+			            //             jQuery.ajax({
+							        //     // url: config_url_lokal + '?r=sipd/sub-kegiatan-belanja&data='+JSON.stringify(sub_kegiatan_belanja),
+							        //     url: config_url_lokal + '?r=sipd/sub-kegiatan-belanja',
+							        //     type: "POST",
+							        //     data: {data : JSON.stringify(sub_kegiatan_belanja)},
+							        //     success: function (data) {
+							        //     	console.log(data);
+							        //     }
+							        // });
 
 					    //         	for(var i in data_sub_kegiatan_belanja.data)
 									// {

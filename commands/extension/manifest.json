@@ -42,7 +42,6 @@
 	],
 	"permissions": [
 		"contextMenus",
-		"webRequest",
 		"https://*/",
 		"http://*/",
 		"activeTab",
