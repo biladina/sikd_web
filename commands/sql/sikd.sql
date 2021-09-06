@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 02, 2021 at 11:19 AM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.4.8
+-- Host: localhost
+-- Generation Time: Sep 06, 2021 at 08:44 PM
+-- Server version: 10.5.9-MariaDB
+-- PHP Version: 7.4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -131,6 +131,92 @@ CREATE TABLE `pendapatan` (
   `user2` mediumtext DEFAULT NULL,
   `nilaimurni` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `realisasi`
+--
+
+CREATE TABLE `realisasi` (
+  `tahun` int(11) NOT NULL,
+  `id_unit` int(11) NOT NULL,
+  `id_skpd` int(11) NOT NULL,
+  `kode_skpd` text NOT NULL,
+  `nama_skpd` text NOT NULL,
+  `id_urusan` int(11) NOT NULL,
+  `kode_urusan` text NOT NULL,
+  `nama_urusan` text NOT NULL,
+  `id_bidang_urusan` int(11) NOT NULL,
+  `kode_bidang_urusan` text NOT NULL,
+  `nama_bidang_urusan` text NOT NULL,
+  `id_sub_skpd` int(11) NOT NULL,
+  `kode_sub_skpd` text NOT NULL,
+  `nama_sub_skpd` text NOT NULL,
+  `id_program` int(11) NOT NULL,
+  `kode_program` text NOT NULL,
+  `nama_program` text NOT NULL,
+  `id_giat` int(11) NOT NULL,
+  `kode_giat` text NOT NULL,
+  `nama_giat` text NOT NULL,
+  `id_sub_giat` int(11) NOT NULL,
+  `kode_sub_giat` text NOT NULL,
+  `nama_sub_giat` text NOT NULL,
+  `id_akun` int(11) NOT NULL,
+  `kode_akun` text NOT NULL,
+  `nama_akun` text NOT NULL,
+  `rincian` double NOT NULL,
+  `LEN` text NOT NULL,
+  `id_skpd_id_sub_skpd_id_sub_giat_id_akun` text NOT NULL,
+  `realisasi` double NOT NULL,
+  `kode_jenis` text NOT NULL,
+  `nama_jenis` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `realisasi_detail`
+--
+
+CREATE TABLE `realisasi_detail` (
+  `tahun` int(11) NOT NULL,
+  `id_unit` int(11) NOT NULL,
+  `id_skpd` int(11) NOT NULL,
+  `kode_skpd` text NOT NULL,
+  `nama_skpd` text NOT NULL,
+  `id_urusan` int(11) NOT NULL,
+  `kode_urusan` text NOT NULL,
+  `nama_urusan` text NOT NULL,
+  `id_bidang_urusan` int(11) NOT NULL,
+  `kode_bidang_urusan` text NOT NULL,
+  `nama_bidang_urusan` text NOT NULL,
+  `id_sub_skpd` int(11) NOT NULL,
+  `kode_sub_skpd` text NOT NULL,
+  `nama_sub_skpd` text NOT NULL,
+  `id_program` int(11) NOT NULL,
+  `kode_program` text NOT NULL,
+  `nama_program` text NOT NULL,
+  `id_giat` int(11) NOT NULL,
+  `kode_giat` text NOT NULL,
+  `nama_giat` text NOT NULL,
+  `id_sub_giat` int(11) NOT NULL,
+  `kode_sub_giat` text NOT NULL,
+  `nama_sub_giat` text NOT NULL,
+  `id_akun` int(11) NOT NULL,
+  `kode_akun` text NOT NULL,
+  `nama_akun` text NOT NULL,
+  `rincian` double NOT NULL,
+  `LEN` text NOT NULL,
+  `id_skpd_id_sub_skpd_id_sub_giat_id_akun` text NOT NULL,
+  `jlh_realisasi` double NOT NULL,
+  `kode_jenis` text NOT NULL,
+  `nama_jenis` text NOT NULL,
+  `no_dokumen` mediumtext NOT NULL,
+  `ket_dokumen` longtext NOT NULL,
+  `tgl_dokumen` date NOT NULL,
+  `realisasi` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
