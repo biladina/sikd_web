@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"minimum_chrome_version": "18.0",
 	"name": "SIPD Extension",
-	"version": "1.2",
+	"version": "1.4",
 	"author": "Biladina Inc.",
 	"description": "ekstensi tambahan untuk mengelola data SIPD",
 	"browser_action": {
@@ -48,7 +48,6 @@
 		"activeTab",
 		"storage",
 		"tabs",
-		"webRequest",
 		"webRequestBlocking"
 	],
 	"applications": {
