@@ -1,0 +1,298 @@
+[
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.06",
+   "nama_rekening": "PAJAK HOTEL",
+   "sampai_hari_ini": 12157542587,
+   "nilai": 5181371455
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.07",
+   "nama_rekening": "PAJAK RESTORAN",
+   "sampai_hari_ini": 25686202166,
+   "nilai": 12312995640
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.08",
+   "nama_rekening": "PAJAK HIBURAN",
+   "sampai_hari_ini": 1875034490,
+   "nilai": 938352507
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.10",
+   "nama_rekening": "PAJAK PENERANGAN JALAN",
+   "sampai_hari_ini": 44558120200,
+   "nilai": 21958082328
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.11",
+   "nama_rekening": "PAJAK PARKIR",
+   "sampai_hari_ini": 2707773275,
+   "nilai": 1309463616
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.12",
+   "nama_rekening": "PAJAK AIR TANAH",
+   "sampai_hari_ini": 1724171854,
+   "nilai": 874877350
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.15",
+   "nama_rekening": "PAJAK BUMI DAN BANGUNAN",
+   "sampai_hari_ini": 6400212468,
+   "nilai": 3831178102
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.16",
+   "nama_rekening": "BEA PEROLEHAN HAK ATAS TANAH DAN BANGUNAN (BPHTB)",
+   "sampai_hari_ini": 24274413459,
+   "nilai": 16988369251
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA PAJAK DAN RETRIBUSI DAERAH",
+   "kode_rekening": "4.1.01.09",
+   "nama_rekening": "PAJAK REKLAME",
+   "sampai_hari_ini": 611428065,
+   "nilai": 611428065
+ },
+ {
+   "periode": 2,
+   "skpd": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
+   "kode_rekening": "4.1.02.03.01",
+   "nama_rekening": "          A. RETRIBUSI IZIN MENDIRIKAN BANGUNAN ",
+   "sampai_hari_ini": 2966671625,
+   "nilai": 191491371
+ },
+ {
+   "periode": 2,
+   "skpd": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
+   "kode_rekening": "4.1.02.03.06",
+   "nama_rekening": "          B. RET. PEMB. PERPANJANGAN IMTA KEPADA TENAGA KERJA ASING        ",
+   "sampai_hari_ini": 185348400,
+   "nilai": 134748000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERHUBUNGAN",
+   "kode_rekening": "4.1.02.01.04.0001",
+   "nama_rekening": "               1. PARKIR HARIAN TEPI JALAN UMUM",
+   "sampai_hari_ini": 1712630000,
+   "nilai": 775255000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERHUBUNGAN",
+   "kode_rekening": "4.1.02.01.06.0001",
+   "nama_rekening": "               1. PENGUJIAN KENDERAAN BERMOTOR",
+   "sampai_hari_ini": 825298500,
+   "nilai": 490500000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERHUBUNGAN",
+   "kode_rekening": "4.1.02.02.04.0003",
+   "nama_rekening": "               1.RET. PENYEDIA FASILITAS LAINNYA DI LINGKUNGAN TERMINAL",
+   "sampai_hari_ini": 20229000,
+   "nilai": 10170000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERHUBUNGAN",
+   "kode_rekening": "4.1.02.02.05",
+   "nama_rekening": "          E. RETRIBUSI TEMPAT KHUSUS PARKIR (PARKIR KHUSUS PELATARAN)",
+   "sampai_hari_ini": 126956000,
+   "nilai": 52508000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERHUBUNGAN",
+   "kode_rekening": "4.1.02.03.03",
+   "nama_rekening": "          F. RETRIBUSI IZIN TRAYEK UNTUK PEL. ANGKUTAN UMUM",
+   "sampai_hari_ini": 1630000,
+   "nilai": 45000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS KEBERSIHAN DAN PERTAMANAN",
+   "kode_rekening": "4.1.02.01.02",
+   "nama_rekening": "          A. RETRIBUSI  PELAYANAN KEBERSIHAN DAN PENGANGKUTAN SAMPAH",
+   "sampai_hari_ini": 1630255700,
+   "nilai": 1217473750
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS KEBERSIHAN DAN PERTAMANAN",
+   "kode_rekening": "4.1.02.01.03",
+   "nama_rekening": "          B. RETRIBUSI  PELAYANAN PEMAKAMAN DAN PENGABUAN MAYAT",
+   "sampai_hari_ini": 65939000,
+   "nilai": 32170000
+ },
+ {
+   "periode": 2,
+   "skpd": " Dinas Pencegah dan Pemadam Kebakaran ",
+   "kode_rekening": "4.1.02.01.07.0001",
+   "nama_rekening": "              1. PEMERIKSAAN/PENG.ALAT PEMADAM KEBAKARAN",
+   "sampai_hari_ini": 196830000,
+   "nilai": 141090000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERUMAHAN, KAWASAN PERMUKIMAN DAN PENATAAN RUANG",
+   "kode_rekening": "4.1.02.02.01.0001",
+   "nama_rekening": "                 1.  SEWA TANAH DAN BANGUNAN ",
+   "sampai_hari_ini": 419788064,
+   "nilai": 182424112
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERUMAHAN, KAWASAN PERMUKIMAN DAN PENATAAN RUANG",
+   "kode_rekening": "4.1.02.02.08",
+   "nama_rekening": "           B. RET. PENGGANTIAN BIAYA CETAK PETA ",
+   "sampai_hari_ini": 425700,
+   "nilai": 198660
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PEKERJAAN UMUM",
+   "kode_rekening": "4.1.02.02.01",
+   "nama_rekening": "          A. RETRIBUSI SEWA ALAT - ALAT BERAT",
+   "sampai_hari_ini": 121800000,
+   "nilai": 61100000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS KESEHATAN",
+   "kode_rekening": "4.1.02.01.01",
+   "nama_rekening": "            A. RETRIBUSI PELAYANAN KESEHATAN DI PUSKESMAS",
+   "sampai_hari_ini": 2505000,
+   "nilai": 1065000
+ },
+ {
+   "periode": 2,
+   "skpd": "DINAS PERDAGANGAN ",
+   "kode_rekening": "4.1.02.01.11",
+   "nama_rekening": "            A. RETRIBUSI PELAYANAN TERA / TERA ULANG ",
+   "sampai_hari_ini": 33027800,
+   "nilai": 30270800
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.1.04.05",
+   "nama_rekening": "  a. Penerimaan Jasa Giro",
+   "sampai_hari_ini": 2925917482,
+   "nilai": 1500175116
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.1.04.12",
+   "nama_rekening": "  b. Pendapatan Denda Pajak ",
+   "sampai_hari_ini": 1415657982,
+   "nilai": 728896635
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.1.04.15",
+   "nama_rekening": "  c. Pendapatan dan Pengembalian ",
+   "sampai_hari_ini": 747880586.04,
+   "nilai": 438322396.39
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0001",
+   "nama_rekening": "Bagi Hasil dari PBB (Sektor Pertambangan)",
+   "sampai_hari_ini": 1242984019,
+   "nilai": 1242984019
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0004",
+   "nama_rekening": "Bagi Hasil Cukai Tembakau",
+   "sampai_hari_ini": 13019438,
+   "nilai": 13019438
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0005",
+   "nama_rekening": "Bagi Hasil dari Penerimaan dari Sektor Minyak Bumi dan Gas Bumi (Migas)",
+   "sampai_hari_ini": 4273800,
+   "nilai": 4273800
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0007",
+   "nama_rekening": "Bagi Hasil dari Penerimaan dari Sektor Pertambangan Panas Bumi",
+   "sampai_hari_ini": 45002697,
+   "nilai": 2163097
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0010",
+   "nama_rekening": "E. Bagi Hasil dari Provisi Sumber Daya Hutan (PSDH)",
+   "sampai_hari_ini": 29047276,
+   "nilai": 29047276
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": "4.2.01.01.01.0013",
+   "nama_rekening": "F. Bagi Hasil dari Penerimaan Pungutan Hasil Perikanan",
+   "sampai_hari_ini": 398548000,
+   "nilai": 229300150
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": " 4.2.01.01.02.0001 ",
+   "nama_rekening": "        1. Dana Alokasi Umum",
+   "sampai_hari_ini": 394141590000,
+   "nilai": 262761060000
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": " 4.2.01.01.04.0017 ",
+   "nama_rekening": "DAK Non Fisik-Dana Pelayanan Administrasi Kependudukan",
+   "sampai_hari_ini": 0,
+   "nilai": 1171435724
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": " 4.2.01.01.04.0020 ",
+   "nama_rekening": "DAK Non Fisik-Fasilitasi Penanaman Modal",
+   "sampai_hari_ini": 0,
+   "nilai": 163061000
+ },
+ {
+   "periode": 2,
+   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
+   "kode_rekening": " 4.2.01.01.04.0022 ",
+   "nama_rekening": "DAK NonFisik-Dana Pelayanan Perlindungan Perempuan dan Anak",
+   "sampai_hari_ini": 0,
+   "nilai": 273047000
+ }
+]

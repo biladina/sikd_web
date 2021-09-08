@@ -372,4 +372,83 @@ class DataController extends Controller
             }
         }
     }
+
+    public function actionRealisasiPendapatan($periode)
+    {
+        $json = file_get_contents(Yii::getAlias('@app/commands/json/realisasi/pendapatan/'.$periode.'.json'));
+        $pendapatan = Json::decode($json);
+
+        $count = 1;
+        foreach($pendapatan as $pendapatan)
+        {
+            $model = new \app\models\RealisasiPendapatan();
+            $model->tahun = 2021;
+            $model->periode = $pendapatan['periode'];
+            $model->id_bidang_urusan = 0;
+            $model->kode_bidang_urusan = '0.00';
+            $model->nama_bidang_urusan = 'Non Urusan';
+            $model->id_program = 0;
+            $model->kode_program = '0.00.00';
+            $model->nama_program = 'Non Program';
+            $model->id_giat = 0;
+            $model->kode_giat = '0.00.00.0.00';
+            $model->nama_giat = 'Non Kegiatan';
+            $model->id_sub_giat = 0;
+            $model->kode_sub_giat = '0.00.00.0.00.00';
+            $model->nama_sub_giat = 'Non Sub Kegiatan';
+            $model->sampai_hari_ini = $pendapatan['sampai_hari_ini'];
+            $model->nilai = $pendapatan['nilai'];
+
+            $skpd = \app\models\Skpd::find()->andWhere(['LIKE', 'nama_skpd', trim($pendapatan['skpd'])])->one();
+
+            if($skpd)
+            {
+                $model->id_unit = $skpd->id_unit;
+                $model->id_skpd = $skpd->id_skpd;
+                $model->kode_skpd = $skpd->kode_skpd;
+                $model->nama_skpd = $skpd->nama_skpd;
+            }
+            
+            $kode_akun = trim($pendapatan['kode_rekening']);
+
+            if(strlen($kode_akun) == 9)
+            {
+                $kode_akun = $kode_akun.".01.0001";
+            }
+            elseif(strlen($kode_akun) == 12)
+            {
+                $kode_akun = $kode_akun.".0001";
+            }
+            
+            $akun = \app\models\AkunBelanja::findOne(['kode_akun' => $kode_akun]);
+
+            if($akun)
+            {
+                $model->id_akun = $akun->id_akun;
+                $model->kode_akun = $akun->kode_akun;
+                $model->nama_akun = $akun->nama_akun;
+            }
+            elseif($kode_akun == "4.2.01.01.04.0020")
+            {
+                $model->id_akun = 0;
+                $model->kode_akun = "4.2.01.01.04.0020";
+                $model->nama_akun = "DAK Non Fisik-Fasilitasi Penanaman Modal";
+            }
+            elseif($kode_akun == "4.2.01.01.04.0022")
+            {
+                $model->id_akun = 0;
+                $model->kode_akun = "4.2.01.01.04.0022";
+                $model->nama_akun = "DAK Non Fisik-Dana Pelayanan Perlindungan Perempuan dan Anak";
+            }
+
+            if($model->save())
+            {
+                echo $model->nama_akun." saved\n";
+            }
+            else
+            {
+                var_dump($model->errors);
+            }
+        }
+    }
 }
