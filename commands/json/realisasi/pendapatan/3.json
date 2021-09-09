@@ -202,14 +202,6 @@
  {
    "periode": 3,
    "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
-   "kode_rekening": "4.1.03.02.01",
-   "nama_rekening": "II. Bagian Laba atas Penyertaan Modal pada Perusahaan Milik     Pemerintah/BUMN",
-   "sampai_hari_ini": 10218916598,
-   "nilai": 10218916598
- },
- {
-   "periode": 3,
-   "skpd": "BADAN PENGELOLA KEUANGAN DAN ASET DAERAH",
    "kode_rekening": "4.1.03.02.01.0001",
    "nama_rekening": "Deviden PT. Bank SUMUT",
    "sampai_hari_ini": 10218916598,
